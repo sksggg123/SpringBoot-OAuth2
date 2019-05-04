@@ -2,6 +2,7 @@ package com.sksggg123.oauth2.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.configuration.EnableGlobalAuthentication;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 
 /**
  * author      : gwonbyeong-yun <sksggg123>
@@ -16,6 +17,6 @@ import org.springframework.security.config.annotation.authentication.configurati
  */
 // access_token 발급해주는 곳
 @Configuration
-@EnableGlobalAuthentication
+@EnableAuthorizationServer
 public class AuthorizationServerConfig {
 }

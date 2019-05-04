@@ -27,6 +27,10 @@ dependencies {
 //    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server' // 나는 Resource Server를 할 필요없음, Resource Server는 외부 Server(Github..)
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    compile('org.springframework.boot:spring-boot-starter-security')
+    compile('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE')
+    
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'

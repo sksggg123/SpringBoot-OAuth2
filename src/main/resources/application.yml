@@ -10,7 +10,7 @@ spring:
           github:
             client-id: ccb8598d9316780c7b0f
             client-secret: 58e269b2d9a5a6ab561d6631877c782a8b33d91e
-            redirect_uri: http://localhost:8080/auth/github
+            redirect_uri: http://localhost:8080/login/github
             accessTokenUri: https://github.com/login/oauth/access_token
             userAuthorizationUri: https://github.com/login/oauth/authorize
             clientAuthenticationScheme: form
